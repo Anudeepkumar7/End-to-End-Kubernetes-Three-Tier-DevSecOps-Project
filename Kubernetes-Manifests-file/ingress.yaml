@@ -11,8 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: amanpathakdevops.study
-      http:
+    - http:
         paths:
           - path: /api
             pathType: Prefix
@@ -48,4 +47,4 @@ spec:
               service:
                 name: frontend
                 port:
-                  number: 3000
+                  number: 300
