@@ -13,13 +13,6 @@ spec:
   rules:
     - http:
         paths:
-          - path: /api
-            pathType: Prefix
-            backend:
-              service:
-                name: api
-                port:
-                  number: 3500
           - path: /healthz
             pathType: Exact
             backend:
@@ -47,4 +40,4 @@ spec:
               service:
                 name: frontend
                 port:
-                  number: 300
+                  number: 3000
