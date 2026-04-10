@@ -2,10 +2,10 @@ name: first_workflow
 on: workflow_dispatch
 jobs:
   setup:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      -name: clone-repo
+      - name: clone-repo
        run: echo "hello clone repos step"
-      -name: saying greetings
+      - name: saying greetings
        run: echo "hello github actions"
   
