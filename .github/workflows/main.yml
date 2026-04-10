@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: clone-repo
-        run: echo "hello clone repos step"
-      - name: saying greetings
-        run: echo "hello github actions"
+        run: | 
+          echo "hello clone repos step"
+          echo "good afterroon running on single step of both echo commands"
 
   second-job:
     runs-on: ubuntu-slim
