@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone-repo
-       run: echo "hello clone repos step"
+        run: echo "hello clone repos step"
       - name: saying greetings
-       run: echo "hello github actions"
-  
+        run: echo "hello github actions"
